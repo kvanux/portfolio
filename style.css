@@ -1,0 +1,218 @@
+.header__wrap {
+  width: 1200px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  color: #434343;
+  position: absolute;
+  z-index: 10;
+}
+.header {
+  background: #ffffff87;
+  box-shadow: 0px 3px 10px #00000029;
+  position: fixed;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  backdrop-filter: blur(100px);
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: "Roboto Mono", monospace;
+}
+.extra_side_padding8 {
+  padding: 0 8px;
+}
+
+html {
+  background-color: #eee;
+}
+
+.header__logo {
+  color: #434343;
+  text-decoration: none;
+  font-family: "Roboto Mono", monospace;
+  font-size: 2.8rem;
+  align-self: center;
+  font-weight: 700;
+  letter-spacing: 2px;
+  transform: translateY(-4px);
+}
+.red__indv {
+  font-family: "Roboto Mono", monospace;
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #cc0000;
+}
+
+.header__btns {
+  list-style: none;
+  font-size: 1.6rem;
+  display: flex;
+  align-self: center;
+  margin: -12px;
+  cursor: pointer;
+}
+
+.header__btn {
+  color: #434343;
+  text-decoration: none;
+  font-size: 1.6rem;
+  width: 92px;
+  font-weight: 600;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out;
+}
+
+.header__btn:hover {
+  color: #cc0000;
+}
+
+/* main */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* .main::before {
+  content: "";
+  position: absolute;
+  min-width: 1920px;
+  min-height: 1080px;
+  transform: rotate(90deg);
+  background: url(./asset/Asset\ 1@2x.png) repeat-x fixed center;
+  background-size: 50% 70%;
+  z-index: -10;
+}
+.main::after {
+  content: "";
+  position: absolute;
+  min-width: 1920px;
+  min-height: 1920px;
+  background: repeat-y fixed center;
+  background-image: linear-gradient(to right, #eee 8%, transparent, #eee 92%);
+  background-size: 70% 100%;
+  z-index: -1;
+} */
+.work {
+  width: 500px;
+  transform: translateY(112px);
+}
+
+.work__grid {
+  display: grid;
+  grid: auto;
+  grid-gap: 32px;
+  z-index: 2;
+  margin-bottom: 32px;
+}
+
+.grid_item {
+  text-decoration: none;
+  background-color: #ffffff87;
+  height: 300px;
+  border-radius: 28px;
+  backdrop-filter: blur(50px);
+  z-index: 2;
+  box-shadow: 0px 3px 10px #00000029;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+}
+.project__title {
+  text-decoration: none;
+  color: #434343;
+  font-size: 2rem;
+  transition: 0.3s ease-in-out;
+}
+
+.grid_item:hover {
+  box-shadow: 0px 3px 15px #e75151a5;
+}
+.grid_item:hover .project__title {
+  color: #cc0000;
+}
+
+.intro {
+  width: 1200px;
+  height: 82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.intro__head {
+  color: #434343;
+  text-decoration: none;
+  font-family: "Roboto Mono", monospace;
+  font-size: 3.6rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  transform: translateY(48px);
+}
+.red__intro {
+  font-family: "Roboto Mono", monospace;
+  font-size: 3.6rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #cc0000;
+}
+.sub__intro {
+  color: #434343;
+  text-decoration: none;
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 16px 0;
+  transform: translateY(48px);
+}
+.sub__intro_red {
+  color: #cc0000;
+  text-decoration: none;
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.intro__btns {
+  display: flex;
+  padding: 12px 0;
+  margin: 0 -8px;
+  transform: translateY(48px);
+}
+.intro__btn {
+  margin: 0 8px;
+  border-radius: 50;
+  background-color: #ffffff;
+  color: #434343;
+  box-shadow: 0 3px 10px #00000029;
+  text-decoration: none;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  transition: ease-in-out 300ms;
+}
+.intro__btn_txt {
+  color: #434343;
+  text-decoration: none;
+  font-size: 2.4rem;
+  font-weight: 700;
+  padding: 16px 60px;
+  transition: ease-in-out 300ms;
+}
+.intro__btn:hover {
+  box-shadow: 0 2px 16px #e75151a5;
+}
+.intro__btn:hover .intro__btn_txt {
+  color: #cc0000;
+}
