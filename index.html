@@ -4,8 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Khanh Van Nguyen</title>
+    <link rel="icon" href="./asset/title.png" type="image/x-icon" />
     <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,16 +28,18 @@
   <body>
     <nav class="header">
       <div class="header__wrap">
-        <a href="" class="header__logo">
+        <a href="#" class="header__logo">
           >_<span class="red__indv">kv</span>an<span class="red__indv">ux</span>
         </a>
 
         <ul class="header__btns">
-          <a data-value="work" class="header__btn scroll_btn">work</a>
-          <a href="" data-value="about" class="header__btn">about</a>
+          <a class="header__btn scroll_btn">work</a>
+          <a href="./about.html" data-value="about" class="header__btn"
+            >about</a
+          >
           <a href="" data-value="resume" class="header__btn">resume</a>
           <a
-            href=""
+            href="./contacts.html"
             data-value="contacts"
             class="header__btn extra_side_padding8"
             >contacts</a
@@ -38,6 +48,9 @@
       </div>
     </nav>
     <div class="main">
+      <div class="bg">
+        <img src="./asset/page4.png" alt="" />
+      </div>
       <div class="intro">
         <h1 class="intro__head">
           //hi, i'm
@@ -50,23 +63,47 @@
           designer
         </p>
         <div class="intro__btns">
-          <a href="" class="intro__btn"><p class="intro__btn_txt">>about</p></a>
-          <a href="" class="intro__btn"
+          <a href="./about.html" class="intro__btn"
+            ><p class="intro__btn_txt">>about</p></a
+          >
+          <a href="#" class="intro__btn"
             ><p class="intro__btn_txt">>resume</p></a
           >
         </div>
       </div>
       <div class="work">
         <div class="work__grid">
-          <a href="" class="grid_item">
-            <h2 class="project__title">//cafe-panion</h2>
+          <a href="" class="grid_item cafe_p">
+            <div class="project__title"><span>//cafe-panion</span></div>
+          </a>
+          <a href="" class="grid_item hi_mentor">
+            <h2 class="project__title"><span>//Hi Mentor</span></h2>
+          </a>
+          <a href="" class="grid_item self_talk">
+            <h2 class="project__title"><span>//self-talk</span></h2>
           </a>
           <a href="" class="grid_item">
-            <h2 class="project__title">//Hi Mentor</h2>
+            <h2 class="project__title d_s">//My Design System</h2>
           </a>
-          <a href="" class="grid_item">
-            <h2 class="project__title">//self-talk</h2>
-          </a>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer__wrap">
+          <div class="footer__sub">
+            <span class="copyright">©</span> 2023 Khanh Van Nguyen
+          </div>
+          <div class="footer__soc">
+            <a href="mailto:nkhanhvan293@gmail.com" class="footer__btn">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/kvanux"
+              target="_blank"
+              class="footer__btn"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -100,12 +137,12 @@
         }, 30);
       };
 
-      // document.querySelector(".scroll_btn").for((scroll_btn) => {
-      //   scroll_btn.addEventListener("click", function () {
-      //     let scrollDistance = document.querySelector(".intro").clientHeight;
-      //     window.scrollBy(0, scrollDistance);
-      //   });
-      // });
+      document.querySelector(".scroll_btn").for((scroll_btn) => {
+        scroll_btn.addEventListener("click", function () {
+          let scrollDistance = document.querySelector(".intro").clientHeight;
+          window.scrollBy(0, scrollDistance);
+        });
+      });
     </script>
   </body>
 </html>
