@@ -33,16 +33,10 @@
         </a>
 
         <ul class="header__btns">
-          <a class="header__btn scroll_btn">work</a>
+          <a href="#work" class="header__btn">work</a>
+          <a href="" data-value="resume" class="header__btn">resume</a>
           <a href="./about.html" data-value="about" class="header__btn"
             >about</a
-          >
-          <a href="" data-value="resume" class="header__btn">resume</a>
-          <a
-            href="./contacts.html"
-            data-value="contacts"
-            class="header__btn extra_side_padding8"
-            >contacts</a
           >
         </ul>
       </div>
@@ -71,9 +65,9 @@
           >
         </div>
       </div>
-      <div class="work">
+      <div class="work" id="work">
         <div class="work__grid">
-          <a href="" class="grid_item cafe_p">
+          <a href="./cafepanion.html" class="grid_item cafe_p">
             <div class="project__title"><span>//cafe-panion</span></div>
           </a>
           <a href="" class="grid_item hi_mentor">
@@ -137,12 +131,12 @@
         }, 30);
       };
 
-      document.querySelector(".scroll_btn").for((scroll_btn) => {
-        scroll_btn.addEventListener("click", function () {
-          let scrollDistance = document.querySelector(".intro").clientHeight;
-          window.scrollBy(0, scrollDistance);
-        });
-      });
+      // document.querySelector(".scroll_btn").for((scroll_btn) => {
+      //   scroll_btn.addEventListener("click", function () {
+      //     let scrollDistance = document.querySelector(".intro").clientHeight;
+      //     window.scrollBy(0, scrollDistance);
+      //   });
+      // });
     </script>
   </body>
 </html>

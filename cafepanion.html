@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cafe-panion by Khanh Van Nguyen</title>
+    <link rel="icon" href="./asset/title.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Metrophobic&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="header">
+      <div class="header__wrap">
+        <a href="./index.html" class="header__logo">
+          >_<span class="red__indv">kv</span>an<span class="red__indv">ux</span>
+        </a>
+
+        <ul class="header__btns">
+          <a href="./index.html" class="header__btn scroll_btn">work</a>
+          <a href="" data-value="resume" class="header__btn">resume</a>
+          <a href="./about.html" data-value="about" class="header__btn"
+            >about</a
+          >
+        </ul>
+      </div>
+    </nav>
+    <div class="proj">
+      <div class="proj__hero"></div>
+      <div class="proj__content">
+        <div class="proj__title">
+          <h1 class="name">CASE STUDY: Cafe-panion</h1>
+          <h2 class="sub">A customer-loyalty app for a cafe chain</h2>
+          <p class="txt"><strong>ROLE:</strong> UX Designer</p>
+          <p class="txt"><strong>DURATION:</strong> Oct - Dec 2022</p>
+          <p class="txt">
+            <strong>PROJECT GOAL:</strong> Design a customer-loyalty app that
+            actually helps keep regular customers engaged.
+          </p>
+          <p class="txt">
+            <strong>TARGET AUDIENCE:</strong> Regular customers of our
+            theoretical cafe chain.
+          </p>
+          <p class="txt">
+            <strong>CHALLENGE:</strong> 70% of screening survey participants
+            reportedly claimed they have no interest in the customer-loyalty
+            apps offered by their favorite vendors due to their past experiences
+            with them.
+          </p>
+        </div>
+        <div class="proj__body">
+          <div class="section-A">
+            <div class="section_title">
+              <h1 class="section_name">1. Research and Empathize</h1>
+            </div>
+            <div class="sub_sec">
+              <p class="txt padding_tb_8">
+                For the initial research of the project, I took it to the field
+                to conduct screening survey targeting regular cafe shop goers,
+                hoping to gain some insights into their general thoughts on
+                customer-loyalty apps and getting volunteers for further users
+                interview to identify what they like and don't about the apps
+                they've tried.
+              </p>
+              <img
+                src="https://images.unsplash.com/photo-1542733819-2b9351e80d64?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80"
+                alt=""
+                id="research_1"
+                loading="lazy"
+              />
+              <p class="txt padding_tb_8">
+                As previously stated, survey data showed that almost all
+                customers and regulars have tried out customer-loyalty apps
+                offered from their favorite vendors/brands before but very
+                quickly grew out of it with an alarming drop-off rates of over
+                70%.
+              </p>
+              <p class="txt padding_tb_8">
+                Fortunately, I was able to get to sit down with 5 participants
+                who volunteered for an interview, the results of which are the
+                findings of these following pain points that the users had with
+                the customer-loyalty apps they've tried before.
+              </p>
+              <h2 class="sub_sec_name">Pain Points</h2>
+              <img
+                src="./asset/painpcaf.png"
+                alt=""
+                id="research_2"
+                loading="lazy"
+              />
+              <h2 class="sub_sec_name mb_24">Meet the Users</h2>
+              <p class="txt padding_tb_8 mb_24">
+                Working with the datas gathered from the user interviews, I was
+                able to narrow down to two fictional personas, of which "Adam
+                Monet" was the primary one representing all the problems our
+                users had.
+              </p>
+              <div class="double-img">
+                <img
+                  src="./asset/p1caf.png"
+                  alt=""
+                  id="research_3"
+                  loading="lazy"
+                />
+                <img
+                  src="./asset/p2caf.png"
+                  alt=""
+                  id="research_3"
+                  loading="lazy"
+                />
+              </div>
+              <h2 class="sub_sec_name mb_48 pt_20">Problem Statement</h2>
+              <p class="txt padding_tb_8 pb_60 txt_20">
+                Adam is a <strong class="txt_20">regular customer</strong> who
+                needs
+                <strong class="txt_20"
+                  >a simplified interface and experience</strong
+                >
+                because
+                <strong class="txt_20"
+                  >he is not familiar with modern technologies</strong
+                >.
+              </p>
+            </div>
+          </div>
+          <div class="section-B">
+            <div class="section_title">
+              <h1 class="section_name">2. Initial Ideas and Designs</h1>
+            </div>
+            <div class="sub_sec">
+              <div class="two-third">
+                <div class="txt_block mb_48">
+                  <h2 class="sub_sec_name mb_48">Information Architecture</h2>
+                  <p class="txt">
+                    Planning out the information architecture of the app helped
+                    a lot in getting an overall image of the product and the
+                    main user flow, where to start and where to focus.
+                  </p>
+                </div>
+                <img
+                  src="./asset/IAcaf.png"
+                  alt=""
+                  loading="lazy"
+                  id="ideate_1"
+                />
+              </div>
+              <h2 class="sub_sec_name mb_48">Sketching Concepts</h2>
+              <p class="txt">
+                I started out by sketching wireframes on paper as it is the
+                cheap and fastest way to visualize different ideas, trying
+                different layouts, different possible versions of the same
+                screen, connecting the screens together to get a rough visual of
+                the main user-flow.
+              </p>
+              <img
+                src="./asset/IMG_1987.png"
+                alt=""
+                loading="lazy"
+                id="ideate_2"
+              />
+              <h2 class="sub_sec_name mb_24 pt_20">
+                Mid-fi Wireframes and Prototype
+              </h2>
+              <p class="txt">
+                With all the basic layouts sketched out on paper, I moved on to
+                Figma to create digital wireframes and medium-fidelity prototype
+                to prepare for the first round of user testing by usability
+                study.
+              </p>
+              <img
+                src="./asset/midfiprocaf.png"
+                alt=""
+                loading="lazy"
+                id="ideate_2"
+              />
+              <p class="txt txt_20 txt-mid">
+                Try it out here:
+                <a
+                  href="https://shorturl.at/oxJKM"
+                  class="txt-link txt_20"
+                  target="_blank"
+                >
+                  Mid-fi Prototype</a
+                >
+              </p>
+              <h2 class="sub_sec_name mb_24 pt_48">User Testing</h2>
+              <p class="txt mb_24">
+                With the first prototype ready to be tested, I planned and
+                conducted a moderated usability study session with the 5
+                volunteered participants from the previous interviews.
+                <br />
+                The main goal of the study is to see first hand how well our
+                users interact with the prototype and figure out what could be
+                improved before moving on to the final design state.
+              </p>
+              <img
+                src="./asset/usplancaf.png"
+                alt=""
+                loading="lazy"
+                id="ideate_3"
+              />
+              <p class="txt mb_48">
+                As expected, the first round of user testing provided tons of
+                interesting feedbacks, most of which were positive, along with
+                some room for improvement pointed out by the participants. So I
+                took some time to organize user feedbacks into clear datas,
+                reassess and finalize them into actionable insights.
+                <br />
+                <br />
+                Here are our shortlisted <strong>findings</strong>:
+                <br />
+                - Users need the
+                <strong>redeemable items to visually stand out more</strong>.
+                <br />
+                - <strong>Having titles alongside the icons</strong> can help
+                users navigate more easily.
+                <br />
+                - <strong>Pushing the redeemable items upperward</strong> can
+                save users a lot of time.
+                <br />
+                - Users want to be able to
+                <strong>see how much points</strong> they are having
+                <strong>while browsing rewards</strong>.
+              </p>
+            </div>
+          </div>
+          <div class="section-A">
+            <div class="section_title">
+              <h1 class="section_name">3. Final Design</h1>
+            </div>
+            <div class="sub_sec">
+              <img src="./asset/cafmock.png" alt="" loading="lazy" id="ds_1" />
+              <p class="txt txt_20 txt-mid pb_60">
+                Try it out here:
+                <a
+                  href="https://shorturl.at/ABPZ4"
+                  class="txt-link txt_20"
+                  target="_blank"
+                >
+                  Final Prototype</a
+                >
+              </p>
+              <h2 class="sub_sec_name pb_30 pt_48 txt-mid">TAKEAWAYS</h2>
+              <p class="txt txt-mid pb_30 txt_20">
+                <strong
+                  style="font-size: 2rem; font-weight: 300; padding-bottom: 8px"
+                  >IMPACT:</strong
+                >
+                With the new and simplified design, the app positively sparked
+                interests in our users. One of the quotes I’ve taken from the
+                usability study participant: “This is so quick and easy yet
+                feels so fantastic! I am really looking forward to when the app
+                actually launches.”
+              </p>
+              <p class="txt txt-mid pb_60 txt_20">
+                <strong
+                  style="font-size: 2rem; font-weight: 300; padding-bottom: 8px"
+                  >WHAT I LEARNED:</strong
+                >
+                While designing the Cafe-panion app, I learned how
+                simplifications can make such a huge difference in resolving
+                navigation and interaction issues. And for that I owe my
+                gratitude towards the users and all the time I spend
+                interviewing them.
+              </p>
+              <div class="two-third pb_60">
+                <div class="txt_block mb_48">
+                  <h2 class="sub_sec_name mb_48">Next steps</h2>
+                  <p class="txt">
+                    - Conduct another usability studies after the product is
+                    finished with development for further iterations.
+                    <br />
+                    - Research for potential smartwatch features.
+                  </p>
+                </div>
+                <img
+                  src="./asset/nxtcaf.png"
+                  alt=""
+                  loading="lazy"
+                  id="ideate_1"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer__wrap">
+        <div class="footer__sub">
+          <span class="copyright">©</span> 2023 Khanh Van Nguyen
+        </div>
+        <div class="footer__soc">
+          <a href="mailto:nkhanhvan293@gmail.com" class="footer__btn">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/kvanux"
+            target="_blank"
+            class="footer__btn"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
