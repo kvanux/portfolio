@@ -370,14 +370,6 @@ html {
   flex-direction: column;
   justify-content: center;
 }
-.about__title {
-  font-size: 2.4rem;
-  padding: 4px 16px;
-}
-.about__txt {
-  font-size: 1.6rem;
-  padding: 4px 16px;
-}
 .contact {
   width: 1200px;
   height: calc(100vh - 80px);
@@ -712,13 +704,32 @@ img {
   transform: translateY(50px);
 }
 .abt_txt_block {
-  width: 440px;
+  width: 560px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   transform: translateY(50px);
 }
+.about__lnk {
+  font-size: 1.6rem;
+  padding: 2px 0;
+  color: #cc0000;
+  text-decoration: none;
+}
+.about__title {
+  font-size: 2.4rem;
+  padding: 8px 0;
+}
+.about__txt {
+  font-size: 1.6rem;
+  padding: 2px 0;
+}
 
+@media (max-width: 990px) and (min-width: 740px) {
+  .abt_txt_block {
+    width: 362px;
+  }
+}
 @media (min-width: 1200px) {
   nav > .header__wrap > #mobile-menu {
     display: none;
@@ -953,7 +964,11 @@ img {
   }
   .about__txt {
     font-size: 1.2rem;
-    padding: 0px 16px;
+    padding: 0 16px;
+  }
+  .about__lnk {
+    font-size: 1.2rem;
+    padding: 0 16px;
   }
   .grid_item {
     height: 200px;
