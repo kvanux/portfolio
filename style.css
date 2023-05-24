@@ -164,6 +164,11 @@ html {
   background-position: center;
   background-size: cover;
 }
+.pro_4 {
+  background-image: url(./asset/proj4.png);
+  background-position: center;
+  background-size: cover;
+}
 /*  */
 
 .grid_item:hover {
@@ -408,6 +413,15 @@ html {
   background-size: 100vw auto;
   background-position: center;
 }
+.proj__hero-pro4 {
+  width: 100vw;
+  margin-top: 80px;
+  height: calc(100vw / 3);
+  background-image: url(./asset/460shots_so.png);
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
+  background-position: center;
+}
 .proj__content {
   width: 100vw;
   min-height: 1200px;
@@ -498,9 +512,37 @@ a.seta {
 a.seta:hover {
   color: #674ea7;
 }
+/* project4 */
+.name-pro4 {
+  font-size: 3.2rem;
+  padding: 44px 0 4px 0;
+  font-weight: 500;
+  transition: ease-in-out 0.5s;
+  color: #26bb98;
+}
+.name-pro4:hover {
+  color: #0cf0bb;
+}
+.sub-pro4 {
+  font-size: 2rem;
+  opacity: 0.8;
+  padding: 4px 0 24px 0;
+  font-weight: 700;
+  color: #0e141a;
+}
+.pro4 {
+  color: #26bb98;
+}
+a.pro4 {
+  color: #0cf0bb;
+  transition: ease-in-out 300ms;
+}
+a.pro4:hover {
+  color: #26bb98;
+}
 
-strong.seta {
-  color: #674ea7;
+strong.pro4 {
+  color: #26bb98;
 }
 
 /* SECTIONS */
